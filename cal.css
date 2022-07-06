@@ -1,0 +1,71 @@
+.font{
+    display: flex;
+    flex-direction: column;
+    border: 0.7px black solid;
+    width: 400px;
+    height: 70%;
+    position :absolute;
+    left:50%;
+    top :50%;
+    transform: translate(-50%,-50%) ; 
+    border-radius: 3%;
+    background-color:#f2f2f2;
+    flex-wrap: wrap; }
+    .dash{
+        border: 0.7px black solid;
+        margin-top: 5%;
+        height: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: aliceblue;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+         box-shadow: 3px 5px 25px rgba(1 1 1 15%);
+    }
+    h1 {
+        margin-right: 5%; }
+    .num{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.7px black solid;
+    width: 60px;
+    height: 60px ;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 8%;
+    background-color: aliceblue;
+    border-radius: 5%;
+    font-style: italic;
+
+    }
+    .rows{
+        display: flex;
+        flex-direction: row;
+    }
+    .ce {
+        background-color: blue;
+    }
+    .c{
+        background-color: red;
+    }
+    .equal {
+        background-color: yellow;
+        margin-top: -2.4%;
+        margin-right: 50%;
+        padding-right: %;
+    }
+    .plus {
+        background-color: green;
+        padding-top: 17%;
+    }
+     .dot {
+        margin-top: -1%;
+        
+        margin-right: 80px;
+     }
+     .zero {
+        margin-top: -1%;
+        padding-left: 19%;
+     }
